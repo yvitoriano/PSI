@@ -1,0 +1,58 @@
+
+    .carrinho-container {
+      max-width: 800px;
+      margin: 2rem auto;
+      background: white;
+      padding: 2rem;
+      border-radius: 12px;
+      box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    }
+
+    h1 {
+      color: #5b3a29;
+      text-align: center;
+    }
+
+    table {
+      width: 100%;
+      border-collapse: collapse;
+      margin-top: 1.5rem;
+    }
+
+    th, td {
+      padding: 1rem;
+      border-bottom: 1px solid #e0c6b0;
+      text-align: left;
+    }
+
+    th {
+      background-color: #f1e8dd;
+    }
+
+    .total {
+      text-align: right;
+      margin-top: 1rem;
+      font-size: 1.2rem;
+      font-weight: bold;
+      color: #5b3a29;
+    }
+
+    .btn-finalizar {
+      display: block;
+      width: fit-content;
+      margin: 2rem auto 0;
+      background-color: #d1a982;
+      color: white;
+      padding: 0.75rem 2rem;
+      border: none;
+      border-radius: 8px;
+      font-size: 1rem;
+      
+    }
+
+    .btn-finalizar:hover {
+      background-color: #b88a65;
+    }
+
+
+   

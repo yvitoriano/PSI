@@ -1,0 +1,40 @@
+.flex {
+    display: flex;
+}
+
+.alinhar-extremidades {
+    justify-content: space-between;
+}
+
+.centralizar {
+    align-items: center;
+    justify-content: center;
+}
+
+.centralizar-horizontal {
+    justify-content: center;
+}
+
+.centralizar-vertical {
+    align-items: center;
+}
+
+.coluna {
+    flex-direction: column;
+}
+
+.direita {
+    justify-content: flex-end;
+}
+
+.esquerda {
+    justify-content: flex-start;
+}
+
+.esquerda-coluna{
+    align-items: flex-start;
+}
+
+.direita-coluna{
+    align-items: flex-end;
+}

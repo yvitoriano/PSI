@@ -1,0 +1,186 @@
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+}
+
+.nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1rem;
+  background-color: EDD8AF;
+  padding: 0 100;
+  flex-wrap: wrap;
+}
+
+.nav-links {
+  display: flex;
+  gap: 1rem;
+  list-style: none;
+}
+
+.nav a {
+  text-decoration: none;
+  color: 054B85;
+  font-size: 20px;
+  font-weight: bold;
+  position: relative;
+}
+
+.nav a:hover::after {
+  content: '';
+  position: absolute;
+  width: 100%;
+  height: 2px;
+  background: #5b3a29;
+  bottom: -2px;
+  left: 0;
+}
+
+main{
+    padding: 70 200;
+}
+
+.btn {
+  padding: 0.5rem 1rem;
+  background-color: #d1a982;
+  border-radius: 8px;
+  color: white;
+}
+
+.footer {
+  padding: 2rem;
+  background-color: EDD8AF;
+  text-align: center;
+  font-size: 0.9rem;
+  
+}
+
+footer p{
+  font-weight: bolder;
+  font-size: 16px;
+}
+
+
+.grid-produtos {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+  gap: 1rem;
+  margin: 2rem 0;
+  
+}
+
+.item {
+  background: #fff9f2;
+  padding: 1rem;
+  border: 1px solid #d1a982;
+  text-align: center;
+}
+
+
+h1::first-letter {
+  color: #d1a982;
+  font-size: 2rem;
+}
+
+.btn:hover {
+  background-color: #a6764d;
+}
+
+main.historia {
+  padding: 2rem;
+  background-color: #fff9f2;
+  color: #3e2b1e;
+}
+
+.conteudo-historia {
+  max-width: 800px;
+  margin: 0 auto;
+  line-height: 1.8;
+}
+
+.conteudo-historia h1::first-letter {
+  color: #d1a982;
+  font-size: 2.5rem;
+}
+
+.conteudo-historia p::first-line {
+  font-weight: bold;
+}
+
+html, body {
+  height: 100%;
+  margin: 0;
+  display: flex;
+  flex-direction: column;
+}
+
+main {
+  flex: 1;
+}
+
+.menu-links {
+  display: flex;
+  justify-content: center;
+  gap: 2rem;
+  margin-bottom: 2rem;
+}
+
+.menu-links a {
+  text-decoration: none;
+  color: #5b3a29;
+  font-weight: bold;
+  background-color: #f1e8dd;
+  padding: 0.5rem 1rem;
+  border-radius: 8px;
+  transition: background-color 0.3s;
+}
+
+.menu-links a:hover {
+  background-color: #d1a982;
+  color: white;
+}
+
+
+.tabela-precos {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 2rem;
+  background-color: #fff9f2;
+}
+
+.tabela-precos th, .tabela-precos td {
+  border: 1px solid #d1a982;
+  padding: 0.75rem;
+  text-align: left;
+}
+
+.tabela-precos th {
+  background-color: #f1e8dd;
+}
+
+.tabela-precos tr:hover {
+  background-color: #f9f0e6;
+}
+
+.grid-produtos {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr); /* 3 colunas iguais */
+  gap: 1rem;
+  margin: 2rem 0;
+  text-align: center;
+  background-color: #fff9f2;
+  padding: 1rem; 
+}
+
+.grid-produtos .item {
+  border: 1px solid #d1a982;
+  padding: 1rem;
+  background-color: #ffffff;
+  border-radius: 8px;
+}
+
+.grid-produtos .item:hover {
+  background-color: #f1e8dd;
+  transition: 0.3s;
+}
