@@ -71,10 +71,25 @@ footer p{
 }
 
 .item {
-  background: #fff9f2;
+  background-color: #fff9f2;
+  border: 1px solid #e0c6b0;
+  border-radius: 10px;
   padding: 1rem;
-  border: 1px solid #d1a982;
   text-align: center;
+  box-shadow: 0 0 10px rgba(0,0,0,0.05);
+  transition: transform 0.2s;
+}
+
+.item:hover {
+  transform: scale(1.03);
+}
+
+.item img {
+  width: 100%;
+  height: 180px;
+  object-fit: cover;
+  border-radius: 8px;
+  margin-bottom: 0.5rem;
 }
 
 
