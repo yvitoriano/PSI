@@ -1,3 +1,10 @@
+// Tipos de Dados :
+idade = 10
+console.log(typeof(idade))
+
+const age = 10 + '10' /* Vai concatenar (juntar)*/
+
+/*AND e OR - && ||*/
 console.log("Cupcake..."); //Parecido com print em python 
 //Variáveis :
 /* let - Para as variáveis que possam ser mudadas
@@ -41,3 +48,4 @@ let livro = {
 }
 
 console.log(livro.nome)
+
